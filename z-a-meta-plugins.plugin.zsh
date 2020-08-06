@@ -74,7 +74,7 @@ Zinit_Annex_Meta_Plugins_Map=(
     fuzzy-src   "fzf-go fzy skim-cargo peco-go"
 
     # Git extensions.
-    ext-git     "Fakerr/git-recall paulirish/git-open paulirish/git-recent davidosomething/git-my arzzen/git-quick-stats iwata/git-now tj/git-extras wfxr/forgit"
+    ext-git     "paulirish/git-open paulirish/git-recent davidosomething/git-my arzzen/git-quick-stats iwata/git-now tj/git-extras wfxr/forgit"
 
     # Rust toolchain + cargo extensions.
     rust-utils  "rust-toolchain cargo-extensions"
@@ -170,7 +170,6 @@ Zinit_Annex_Meta_Plugins_Config_Map=(
     marzocchi/zsh-notify      "$_std atinit'zstyle \":notify:*\" command-complete-timeout 3; \
                                             zstyle \":notify:*\" notifier plg-zsh-notify"
     # Git extensions
-    Fakerr/git-recall         "$_std null sbin"
     paulirish/git-open        "$_std null sbin"
     paulirish/git-recent      "$_std null sbin"
     davidosomething/git-my    "$_std null sbin"
