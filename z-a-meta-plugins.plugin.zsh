@@ -170,7 +170,6 @@ Zinit_Annex_Meta_Plugins_Config_Map=(
     marzocchi/zsh-notify      "$_std atinit'zstyle \":notify:*\" command-complete-timeout 3; \
                                             zstyle \":notify:*\" notifier plg-zsh-notify"
     # Git extensions
-    Fakerr/git-recall         "$_std null sbin"
     paulirish/git-open        "$_std null sbin"
     paulirish/git-recent      "$_std null sbin"
     davidosomething/git-my    "$_std null sbin"
